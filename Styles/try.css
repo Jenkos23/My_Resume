@@ -1,0 +1,92 @@
+:root{
+    --bgc:#f4f4f4;
+    --resume-left-bgc: #fff;
+    --resume-right-bgc: #232941;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body{
+    background:var(--bgcolor);
+    color: var(--primary);
+    font-size: 14px;
+
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.resume_design{
+    width: 700px;
+    max-width: 100%;
+    display: flex;
+    box-shadow: 0 0 2px rgba(red, green, blue, alpha);
+}
+
+.resume_design .resume-left.button,
+.resume_design .resume-right .button
+{
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  border: 2px;
+  color: aqua;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.resume_design .resume-right .Skill_set ul li .bar_wrap{
+    width: calc(100% -100px);
+    height: 10px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.resume_design .resume-right .Skill_set ul li .bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: chartreuse;
+
+}
+
+
+.resume_design .resume-right{
+    background-color: brown;
+    width: 200px;
+    height: 100%;
+
+}
+.resume_design .resume-right .Skill_set ul li .bar_wrap{
+    width: calc(100% -100px);
+    height: 10px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.resume_design .resume-right .Skill_set ul li .bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: chartreuse;
+
+
+
+}
